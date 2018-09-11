@@ -10,10 +10,13 @@ var MyFirstProgram = (function () {
         console.log(argArray);
     };
     MyFirstProgram.prototype.runFirst = function (callback) {
-        console.log("This method runs first!");
+        console.log("This method runs first");
     };
     MyFirstProgram.prototype.runLast = function () {
         console.log("This method runs last");
+    };
+    MyFirstProgram.prototype.runMiddle = function () {
+        console.log("This code runs inbetween the other two...");
     };
     return MyFirstProgram;
 }());

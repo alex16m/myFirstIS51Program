@@ -8,11 +8,15 @@ class MyFirstProgram {
     }
 
     runFirst(callback: Function) {
-        console.log("This method runs first!");
+        console.log("This method runs first");
     }
 
     runLast() {
         console.log("This method runs last");
+    }
+
+    runMiddle() {
+        console.log("This code runs inbetween the other two...")
     }
 }
 
