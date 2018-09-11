@@ -8,7 +8,7 @@ class MyFirstProgram {
     }
 
     runFirst(callback: Function) {
-        console.log("This method runs first");
+        console.log("This method runs first!");
     }
 
     runLast() {

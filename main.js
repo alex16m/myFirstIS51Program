@@ -10,7 +10,7 @@ var MyFirstProgram = (function () {
         console.log(argArray);
     };
     MyFirstProgram.prototype.runFirst = function (callback) {
-        console.log("This method runs first");
+        console.log("This method runs first!");
     };
     MyFirstProgram.prototype.runLast = function () {
         console.log("This method runs last");
