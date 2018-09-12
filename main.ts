@@ -14,6 +14,10 @@ class MyFirstProgram {
     runLast() {
         console.log("This method runs last");
     }
+
+    runMiddle() {
+        console.log("This code runs inbetween the other two...")
+    }
 }
 
 const newObject = new MyFirstProgram("a","b","c");

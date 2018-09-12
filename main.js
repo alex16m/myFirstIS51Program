@@ -15,6 +15,9 @@ var MyFirstProgram = (function () {
     MyFirstProgram.prototype.runLast = function () {
         console.log("This method runs last");
     };
+    MyFirstProgram.prototype.runMiddle = function () {
+        console.log("This code runs inbetween the other two...");
+    };
     return MyFirstProgram;
 }());
 var newObject = new MyFirstProgram("a", "b", "c");
